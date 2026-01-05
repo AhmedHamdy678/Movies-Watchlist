@@ -1,0 +1,243 @@
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+/* Google Fonts Import */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+}
+
+:root {
+  --primary-color: #032541;
+  --secondary-color: #21d07a;
+  --white: #fff;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.Btn {
+  padding: 10px 15px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 1rem;
+  border: none;
+  line-height: 1.1;
+  transition: 0.3s;
+}
+
+.Btn:hover {
+  background-color: #1aa762;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.Btn:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Styled For Nav Bar  */
+
+nav {
+  background-color: var(--primary-color) !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 26px !important;
+  font-weight: 700;
+}
+
+.container {
+  padding: 10px 30px !important;
+}
+
+nav .nav-link {
+  color: white;
+}
+
+#basic-navbar-nav {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+}
+
+.links {
+  display: flex !important;
+  align-items: center !important;
+  gap: 30px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px !important;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: brown;
+}
+
+/* Styled For Add Copmonets  */
+
+.add-component .container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-component .search {
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.add-component .search input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.movie-card {
+  position: relative;
+  background-color: var(--primary-color);
+  color: white;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.results-header {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.movie-card .poster img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.movie-card h4 {
+  margin: 10px 15px;
+}
+
+.movie-card .buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px 15px 15px;
+}
+
+.movie-card .buttons button {
+  width: 48%;
+  padding: 8px 0;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.movie-card .buttons button:hover {
+  background-color: #1aa762;
+}
+
+.movie-card .buttons button:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Style For Movie List Component */
+
+.film-card{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: 0.4s;
+    margin-bottom: 20px;
+    top: 0;
+}
+
+.film-card:hover {
+    top: -10px;
+}
+
+.inner-card-controlls {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+  display: none;
+  transition: 0.3s;
+}
+
+.film-card:hover .inner-card-controlls {
+    display: flex;
+}
+
+.control-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.control-btn:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.control-btn:active {
+  transform: scale(0.95);
+}
+
+.control-btn i {
+  pointer-events: none;
+}
+
+
+
+

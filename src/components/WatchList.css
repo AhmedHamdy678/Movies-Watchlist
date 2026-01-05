@@ -1,0 +1,74 @@
+/* WatchList Component Styles */
+
+.watch-list {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem 0;
+}
+
+
+.watch-list .main-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.watch-list .main-heading h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.watch-list .movies-count {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.watch-list .movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin: auto;
+  gap: 1rem;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.watch-list .no-movies {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 4rem;
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: fadeIn 0.5s ease-out;
+}
+
+
+
+/* Smooth hover effects for interactive elements */
+.watch-list .movies-count:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+
+
+.over-lay img {
+  border-radius: 10px;
+}
+
