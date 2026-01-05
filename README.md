@@ -19,7 +19,7 @@ A modern, feature-rich movie watchlist application built with React. Search for 
 
 ## 🌐 Live Demo
 
-> 🔗 **[View Live Demo](https://your-demo-link.vercel.app)**
+> 🔗 **[View Live Demo](https://movies-watch321.netlify.app/)**
 
 ---
 
@@ -212,7 +212,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📬 Contact
 
-**Your Name** - [@your_twitter](https://twitter.com/your_twitter)
+**Your Name** - [Ahmed Hamdy)
 
 Project Link: [https://github.com/your-username/movies-watchlist](https://github.com/your-username/movies-watchlist)
 
