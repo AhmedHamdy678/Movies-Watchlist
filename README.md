@@ -214,7 +214,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Your Name** - [Ahmed Hamdy)
 
-Project Link: [https://github.com/your-username/movies-watchlist](https://github.com/your-username/movies-watchlist)
+Project Link: [https://github.com/AhmedHamdy678/Movies-Watchlist]
 
 ---
 
@@ -222,6 +222,6 @@ Project Link: [https://github.com/your-username/movies-watchlist](https://github
 
 ### ⭐ Star this repo if you found it helpful!
 
-Made with ❤️ and React
+Made with  Ahmed Hamdy❤️ 
 
 </div>
